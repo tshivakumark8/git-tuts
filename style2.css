@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-position: center center;
+    font-size: 60px;
+    padding-top: 200px;
+    padding-right: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 180px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+button {
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 250px;
+    padding: 10px 40px;
+    /* margin-bottom: 50px; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.container1 {
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+    background-image: url("https://img.freepik.com/free-photo/young-female-admiring-sea-view_23-2148137891.jpg?t=st=1711614070~exp=1711617670~hmac=878f7785ad22e4e2635c11e1c4ffc518795eeaec43a1b96131b7efa7380642ae&w=996");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.container2 {
+    width: 143%;
+    height: 350px;
+    background-color: lightblue;
+    background-image: url("https://img.freepik.com/premium-photo/yellow-taxis-street-new-york-city_943657-5498.jpg?w=996");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+hr {
+    margin-top: 10px;
+    margin: 20px;
+}
+
+.container3 {
+    width: 100%;
+    height: 350px;
+    background-color: lightcoral;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-shot-himalayas-mountains-clouds_181624-11173.jpg?t=st=1711615971~exp=1711619571~hmac=e199b3065aa32c37cbfa95297de6629df0e9d152d71e6bea37de9a28d0689ae5&w=996");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.container4 {
+    width: 100%;
+    height: 350px;
+    background-color: lightcyan;
+    background-image: url("https://img.freepik.com/free-photo/fluffy-wolf-pup-staring-alertly-portrait-natural-beauty-generated-by-ai_188544-55662.jpg?t=st=1711616074~exp=1711619674~hmac=b952a0fa3f4f946dd18ef7820a730a905812a8e1f1f575d6a0d7551d4678457b&w=1060");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.main3 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container5 {
+    width: 100%;
+    height: 350px;
+    background-color: lightblue;
+    background-image: url("https://img.freepik.com/premium-photo/escalator-mall-generative-ai_220873-18609.jpg?w=1380");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.container6 {
+    width: 144%;
+    height: 350px;
+    background-color: lightgreen;
+    background-image: url("https://img.freepik.com/premium-photo/woman-photographer-with-camera_93675-62620.jpg?w=996");
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+}
+
+.main4 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main5 {
+    background-color: black;
+    height: 400px;
+    color: white;
+}
+
+.butter {
+    font-size: 20px;
+    margin: 30px;
+    margin-left: 100px;
+    padding: 10px 40px;
+    /* margin-bottom: 50px; */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.main6 {
+    background-color: black;
+    height: 500px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+input {
+    width: 20%;
+    height: 40px;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+}
+
+.butter1 {
+    font-size: 15px;
+    padding-top: 15px;
+    margin-left: 50px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.butter2 {
+    font-size: 15px padding-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
