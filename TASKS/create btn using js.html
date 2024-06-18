@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function createbtn(){
+            var btnRef=document.createElement("button");
+            var h2ref=document.createElement("h2")
+          btnRef.innerText="javascript Button";
+          h2ref.innerText="creating javascript button"
+
+          btnRef.style.color="white"
+           btnRef.style.backgroundColor="blue"
+           btnRef.style.padding="10px 20px"
+           btnRef.style.textTransform="capitalize"
+
+           h2ref.style.color="red"
+           btnRef.onclick=function (){
+            h2ref.remove();
+            btnRef.remove();
+           }
+  
+  
+          document.getElementById("body").appendChild(h2ref);
+          document.getElementById("body").appendChild(btnRef);
+
+        }
+      </script>
+</head>
+<body id="body" >
+    <div>
+        <h1>create button using js</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam maxime dolorum amet aliquid iste assumenda. Sint harum commodi quo excepturi tempore nemo. Numquam, nemo nostrum consequuntur cupiditate totam, quos, neque nobis libero sequi ab omnis. Consectetur quo mollitia aspernatur, commodi id aut laboriosam culpa tempore ad nisi incidunt in iure cum omnis et? Nam quas reiciendis aperiam voluptatibus corporis ab ex nostrum aspernatur maxime sequi, nesciunt provident dignissimos quos inventore quo veniam iure ad error consectetur perspiciatis, cumque iste! Velit.</p>
+        <button>Html button</button>
+        <button onclick="createbtn()">click me </button>
+    </div>
+    
+</body>
+</html>
