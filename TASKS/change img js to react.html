@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
     <style>
-        body{
+        body {
             background-color: lightgreen;
         }
-        div{
+
+        div {
             text-align: center;
             margin-top: 140px;
             padding-right: 40px;
             color: white;
         }
-        button{
+
+        button {
             font-size: 15px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: 600;
@@ -27,28 +30,30 @@
             box-sizing: border-box;
         }
     </style>
-   
+
 </head>
 <script>
-    function changetoreact(){
-    let imageRef=document.getElementById("btn");
-    imageRef.src=
-    "https://media.licdn.com/dms/image/D5612AQEzjs5K5S8qHw/article-cover_image-shrink_720_1280/0/1710064707524?e=2147483647&v=beta&t=TwRFdd84_Oef8BvgNCrK0hUFl1utO-2rVe2fEvnKkBs"
+    function changetoreact() {
+        let imageRef = document.getElementById("btn");
+        imageRef.src =
+            "https://media.licdn.com/dms/image/D5612AQEzjs5K5S8qHw/article-cover_image-shrink_720_1280/0/1710064707524?e=2147483647&v=beta&t=TwRFdd84_Oef8BvgNCrK0hUFl1utO-2rVe2fEvnKkBs"
 
-}
+    }
 
-function changetojs(){
-    let imageRef=document.getElementById("btn");
-    imageRef.src=
-    "https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg"
-}
+    function changetojs() {
+        let imageRef = document.getElementById("btn");
+        imageRef.src =
+            "https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg"
+    }
 </script>
+
 <body>
     <div>
-        <img id="btn"
-        src="https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg" alt="js" height="400" width="400"/><br><br>
+        <img id="btn" src="https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg" alt="js" height="400"
+            width="400" /><br><br>
         <button onclick="changetojs()">Javascript</button>
         <button onclick="changetoreact()">React js</button>
     </div>
 </body>
+
 </html>
